@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    font-family: Body, Quicksand, sans-serif;
+    border: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    flex-shrink: 0;
+}
+
+nav .logo {
+    background-image: url("logo.png");
+    width: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .logo2 {
+    background-image: url("logo2.png");
+    width: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 80vw;
+    height: 10vh;
+}
+
+.nav .block1 {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.nav .block2 {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.nav button {
+    background-color: #213d77;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+}
+
+.hero-section {
+    background-image: url("hero-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+
+main .heading {
+    position: absolute;
+    right: 10vw;
+    top: 20vh;
+}
+
+main .heading span {
+    color: #213d77;
+}
+
+main .heading> :nth-child(1) {
+    font-weight: 700;
+    font-size: 3.3rem;
+}
+
+main .heading> :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .heading .line {
+    width: 1px;
+    background-color: #213d77;
+    height: 2rem;
+}
+
+main .form {
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+    position: relative;
+    top: 8vh;
+    left: 15vh;
+}
+
+main .form .pnr button {
+    background-color: #213d77;
+    color: white;
+    font-weight: 600;
+    padding: 10px 6.3vw;
+    border: none;
+}
+
+main .form .pnr {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .form .heading {
+    color: #213d77;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    margin: 5vh;
+    margin-bottom: 2vh;
+}
+
+main .form .input {
+    border: 1px solid #213d77;
+    border-radius: 4px;
+}
+
+main .form input {
+    border: none;
+}
+
+main .form i {
+    color: #213d77;
+    padding: 8px;
+}
+
+main .form .box1,
+main .form .box2,
+main .form .box3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+
+main .form .box3 {
+    justify-content: start;
+    position: relative;
+    top: 2vh;
+    left: 8%;
+}
+
+main .form .input input,
+main .form .input select {
+    padding: 0.65rem 3rem 0.65rem 0rem;
+    border: none;
+}
+
+main .form .input5 select {
+    padding-right: 2px;
+}
+
+main .form .cross i {
+    padding: 0;
+}
+
+main .form .cross {
+    position: relative;
+    left: 30%;
+    margin: 0.5vh 0;
+}
+
+main .form .input1,
+.input3,
+.input5 {
+    padding-right: 15%;
+}
+
+main .submit button {
+    background-color: #fb792b;
+    color: white;
+    font-weight: 600;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    padding: 12px 30px;
+    margin: 0 1cm;
+    border-radius: 5px;
+}
+
+main .submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 12%;
+}
+
+main .form2 {
+    height: 15vh;
+    width: 40vw;
+    background-color: white;
+    position: relative;
+    top: 8vh;
+    left: 15vh;
+    margin-top: 1vh;
+    font-size: small;
+}
+
+
+main .form2 .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    font-weight: 600;
+}
+
+main {
+    background-color: #F7F7F7;
+}
+
+.holidays {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 15vh;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main .content .box {
+    width: 29.2%;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid rgba(101, 98, 98, 0.551);
+}
+
+main .content {
+    margin: 0 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+main .content .box :nth-child(2) {
+    padding: 2vh 1.5vh;
+}
+
+main .content .box :nth-child(3) {
+    padding-left: 1.5vh;
+    font-size: 0.85rem;
+    line-height: 1.8;
+}
+
+main .content .box :nth-child(4) {
+    position: relative;
+    left: 1.5vh;
+    top: 2.5vh;
+}
+
+.footer1 {
+    background-image: linear-gradient(270deg, #9b4b90 0, #2c215d);
+    height: 8vh;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer2 {
+    background-color: #2c215d;
+    height: 35vh;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer2 .box{
+    line-height: 2.9;
+}
+
+.footer3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 0.85rem;
+}
+
+.fixed{ 
+    height: 2vh;
+    width: 2vw;
+    position: fixed;
+    bottom: 20vh;
+    right:8vw;
+}
